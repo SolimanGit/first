@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          scaffoldBackgroundColor: Colors.grey[350],
+          primarySwatch: Colors.grey,
         ),
         home: const MyHomePages(title: 'TP'),
         initialRoute: 'exo1',

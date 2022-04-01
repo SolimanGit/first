@@ -5,7 +5,7 @@ import 'package:first/screens/home3.dart';
 import 'package:first/screens/home5.dart';
 import 'package:first/screens/Exercice8.dart';
 import 'package:first/screens/Exercice7.dart';
-import 'package:first/screens/home7.dart';
+// import 'package:first/screens/home7__.dart';
 
 class MyHomePages extends StatefulWidget {
   const MyHomePages({Key? key, required this.title}) : super(key: key);

@@ -21,9 +21,8 @@ class _Exercice8State extends State<Exercice8> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
-        borderRadius: BorderRadius.only(
-            bottomLeft: Radius.circular(20), bottomRight: Radius.circular(20)),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
         color: Colors.white,
       ),
       child: SafeArea(
