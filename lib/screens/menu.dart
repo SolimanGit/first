@@ -26,21 +26,18 @@ class _MyHomePageStates extends State<MyHomePages> {
     // const MyHomePage3(title: 'Home3'),
     const Exercice7()
   ];
-  List<String> routesList = ['/exo5', '/exo1', '/exo7'];
+  List<String> routesList = ['/exo5', '/exo8', '/exo7'];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       // body: list[index], OU
       backgroundColor: Colors.grey[350],
-      body: ClipRRect(
-        borderRadius: const BorderRadius.vertical(bottom: Radius.circular(20)),
-        child: SizedBox(
-          // decoration: const BoxDecoration(
-          //     borderRadius: BorderRadius.vertical(bottom: Radius.circular(20)),
-          //     color: Colors.white),
-          height: MediaQuery.of(context).size.height * 0.80,
-          child: list[index],
-        ),
+      body: SizedBox(
+        // decoration: const BoxDecoration(
+        //     borderRadius: BorderRadius.vertical(bottom: Radius.circular(20)),
+        //     color: Colors.white),
+        height: MediaQuery.of(context).size.height * 0.80,
+        child: list[index],
       ),
       drawer: Drawer(
           child: ListView(children: [

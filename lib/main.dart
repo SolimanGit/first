@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:first/screens/Exercice5.dart';
 import 'package:first/screens/Exercice1.dart';
 import 'package:first/screens/Exercice7.dart';
+import 'package:first/screens/Exercice8.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +11,7 @@ void main() {
 
 final Map<String, Widget Function(BuildContext)> routes = {
   '/exo5': (context) => const Exercice5(),
-  '/exo1': (context) => const Exercice1(),
+  '/exo8': (context) => const Exercice8(),
   '/exo7': (context) => const Exercice7(),
 };
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.grey,
         ),
         home: const MyHomePages(title: 'TP'),
-        initialRoute: 'exo1',
+        initialRoute: 'exo5',
         routes: routes);
   }
 }
